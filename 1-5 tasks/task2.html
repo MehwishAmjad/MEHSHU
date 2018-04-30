@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.styling{
+padding:20px;
+margin:20px;
+border-color:green;
+color:blue;
+background-color:darkblue;
+border-radius:10px;
+font-size:30px;
+}</style>
+</head>
+<body>
+<button id="x1" class="styling"> ABC1</button>
+<button id="x2" class="styling"> ABC2</button>
+<button id="x3" class="styling"> ABC3</button>
+<button id="x4" class="styling"> ABC4</button>
+<button onclick="changePro()" style="background-color:red">Change color</button>
+</button>
+<script>
+function changePro(){
+document.getElementById('x1').style.backgroundColor='darkgrey';
+document.getElementById('x2').style.backgroundColor='blue';
+document.getElementById('x3').style.backgroundColor='tomato';
+document.getElementById('x4').style.backgroundColor='orange';
+document.getElementById('x1').style.fontSize='40px';
+document.getElementById('x2').style.fontSize='40px';
+document.getElementById('x3').style.fontSize='40px';
+document.getElementById('x4').style.fontSize='40px';
+}
+
+</script>
+
+</body>
+<html>
